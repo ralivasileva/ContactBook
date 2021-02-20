@@ -33,7 +33,7 @@ function setup(app, data) {
   app.post('/api/contacts', function(req, res) {
     let result = data.addContact(
 	  req.body.firstName, req.body.lastName,
-	  req.body.email, req.bo.phone, req.body.comments);
+	  req.body.email, req.body.phone, req.body.comments);
     if (result.errMsg)
       res.status(400).send(result);
     else

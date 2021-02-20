@@ -68,9 +68,9 @@ function addContact(firstName, lastName, email, phone, comments) {
 }
 
 function deleteContactById(id) {
-  let contactIndex = contact.findIndex(c => c.id == id);
+  let contactIndex = contacts.findIndex(c => c.id == id);
   if (contactIndex != -1) {
-    contacts.splice(concatIndex, 1);
+    contacts.splice(contactIndex, 1);
     return {msg: `Contact deleted: ${id}`};
   }
   else
