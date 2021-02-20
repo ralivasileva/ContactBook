@@ -11,7 +11,7 @@ The JS app "Contact Book" holds a searcheable list of contacts. It supports the 
 The app is based on Node.js + Express.js + Pug.
  - It has **no database** and app data is not persistent!
 
-Demo:
+## Live Demo
  - Web app live demo: https://contactbook.nakov.repl.co
  - RESTful API live demo: https://contactbook.nakov.repl.co/api
  - Play with the code at: https://repl.it/@nakov/contactbook
