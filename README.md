@@ -31,8 +31,7 @@ The following endpoints are supported:
 
 ![image](https://user-images.githubusercontent.com/1689586/108591576-1cb4a980-7372-11eb-8ae9-12ebe022dfab.png)
 
-![image](https://user-images.githubusercontent.com/1689586/108591580-1f170380-7372-11eb-9bde-
-b4d813a0a693.png)
+![image](https://user-images.githubusercontent.com/1689586/108591580-1f170380-7372-11eb-9bde-b4d813a0a693.png)
 
 ![image](https://user-images.githubusercontent.com/1689586/108591583-2211f400-7372-11eb-8f98-3f855cce4c5c.png)
 
