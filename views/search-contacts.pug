@@ -7,10 +7,10 @@ block content
   if keyword
     h1 Contacts Matching Keyword "#{keyword}"
     if contacts.length == 0
-      div No results found.
+      div#searchResult No contacts found.
       br
     else
-      div #{contacts.length} contacts found.
+      div#searchResult #{contacts.length} contacts found.
       br
       include render-contacts
       br

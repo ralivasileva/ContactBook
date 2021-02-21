@@ -14,7 +14,7 @@ function setup(app, data) {
     res.send(result);
   });
 
-  app.get('/api/contacts/search/:keyword', function(req, res) {
+  app.get('/api/contacts/search/:keyword', async function(req, res) {
     let result = data.findContactsByKeyword(req.params.keyword);
     if (result.errMsg)
       res.status(404).send(result);
@@ -37,7 +37,7 @@ function setup(app, data) {
     if (result.errMsg)
       res.status(400).send(result);
     else
-      res.send(result);
+      res.status(201).send(result);
   });
   
   app.delete('/api/contacts/:id', function(req, res) {
