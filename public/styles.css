@@ -36,6 +36,11 @@ header.top a {
   text-align: center;
   font-size: 2.0em;
   filter: drop-shadow(0px 0px 2px #555);
+  text-decoration: none;
+}
+
+header.top a:hover {
+  filter: drop-shadow(0px 0px 3px #fff);
 }
 
 header.top h1 {
@@ -176,8 +181,12 @@ table.contact-entry td div.comments {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-line-clamp: 3; /* number of lines to show */
   -webkit-box-orient: vertical;
+}
+
+td.comments {
+  white-space: pre-wrap;
 }
 
 form table {
